@@ -15,7 +15,7 @@ namespace Tests
         public void Setup()
         {
             var options = new DbContextOptionsBuilder<TaskContext>()
-                .UseInMemoryDatabase(databaseName: "TaskDatabase")
+                .UseInMemoryDatabase(databaseName: "TaskManagementAPI")
             .Options;
 
             _context = new TaskContext(options);
