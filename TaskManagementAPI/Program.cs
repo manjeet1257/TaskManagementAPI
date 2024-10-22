@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System.Configuration;
 using TaskInfrastructureLayer;
+using TaskManagementDomain;
 
 namespace TaskManagementAPI
 {
@@ -11,9 +12,11 @@ namespace TaskManagementAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            var connectionString = builder.Configuration.GetConnectionString("database");
             builder.Services.AddDbContext<TaskContext>(options =>
                     options.UseSqlServer(connectionString));
+
+            builder.Services.AddScoped<ITaskDetailService, TaskDetailService>();
 
             builder.Services.AddControllers();
 

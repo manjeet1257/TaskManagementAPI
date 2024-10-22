@@ -7,6 +7,17 @@ namespace TaskInfrastructureLayer
         public TaskContext(DbContextOptions<TaskContext> options) : base(options) { }
 
         public DbSet<TaskDetail> Tasks { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<TaskDetail>(entity =>
+            {
+                entity.Property(e => e.Id)
+                    .HasColumnName("Id")
+                    .ValueGeneratedOnAdd();
+            });
+
+        }
     }
 
 }
