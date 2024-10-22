@@ -23,5 +23,11 @@ namespace TaskManagementAPI
             return null;
         }
 
+        [HttpPost]
+        public async Task<ActionResult<TaskDetailDTO>> AddTask(TaskDetail taskDetail)
+        {
+            return Ok();
+        }
+
     }
 }

@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementAPI", "TaskManagementAPI\TaskManagementAPI.csproj", "{4C3BAC06-1F99-4653-BBF5-54E1234F0AD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagementAPI", "TaskManagementAPI\TaskManagementAPI.csproj", "{4C3BAC06-1F99-4653-BBF5-54E1234F0AD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementDomain", "TaskManagementDomain\TaskManagementDomain.csproj", "{E09C090E-CA33-4DC1-875F-80A7F2554DB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagementDomain", "TaskManagementDomain\TaskManagementDomain.csproj", "{E09C090E-CA33-4DC1-875F-80A7F2554DB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskInfrastructureLayer", "TaskInfrastructureLayer\TaskInfrastructureLayer.csproj", "{6DBB1B5C-3E08-404B-882F-47082140231A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskInfrastructureLayer", "TaskInfrastructureLayer\TaskInfrastructureLayer.csproj", "{6DBB1B5C-3E08-404B-882F-47082140231A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{6608595F-1149-40B7-AD50-466D6BEC3C25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6DBB1B5C-3E08-404B-882F-47082140231A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DBB1B5C-3E08-404B-882F-47082140231A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DBB1B5C-3E08-404B-882F-47082140231A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6608595F-1149-40B7-AD50-466D6BEC3C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6608595F-1149-40B7-AD50-466D6BEC3C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6608595F-1149-40B7-AD50-466D6BEC3C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6608595F-1149-40B7-AD50-466D6BEC3C25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
