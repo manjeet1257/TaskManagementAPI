@@ -1,0 +1,15 @@
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\bin\Debug\net8.0\TaskManagementDomain.deps.json
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\bin\Debug\net8.0\TaskManagementDomain.dll
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\bin\Debug\net8.0\TaskManagementDomain.pdb
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\obj\Debug\net8.0\TaskManagementDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\obj\Debug\net8.0\TaskManagementDomain.AssemblyInfoInputs.cache
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\obj\Debug\net8.0\TaskManagementDomain.AssemblyInfo.cs
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\obj\Debug\net8.0\TaskManagementDomain.csproj.CoreCompileInputs.cache
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\obj\Debug\net8.0\TaskManagementDomain.dll
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\obj\Debug\net8.0\refint\TaskManagementDomain.dll
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\obj\Debug\net8.0\TaskManagementDomain.pdb
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\obj\Debug\net8.0\ref\TaskManagementDomain.dll
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\bin\Debug\net8.0\TaskInfrastructureLayer.dll
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\bin\Debug\net8.0\TaskInfrastructureLayer.pdb
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\obj\Debug\net8.0\TaskManagementDomain.csproj.AssemblyReference.cache
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskManagementDomain\obj\Debug\net8.0\TaskMana.84C99CD9.Up2Date

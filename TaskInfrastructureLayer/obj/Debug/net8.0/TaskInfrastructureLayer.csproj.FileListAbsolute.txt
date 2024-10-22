@@ -1,0 +1,12 @@
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskInfrastructureLayer\bin\Debug\net8.0\TaskInfrastructureLayer.deps.json
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskInfrastructureLayer\bin\Debug\net8.0\TaskInfrastructureLayer.dll
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskInfrastructureLayer\bin\Debug\net8.0\TaskInfrastructureLayer.pdb
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskInfrastructureLayer\obj\Debug\net8.0\TaskInfrastructureLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskInfrastructureLayer\obj\Debug\net8.0\TaskInfrastructureLayer.AssemblyInfoInputs.cache
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskInfrastructureLayer\obj\Debug\net8.0\TaskInfrastructureLayer.AssemblyInfo.cs
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskInfrastructureLayer\obj\Debug\net8.0\TaskInfrastructureLayer.csproj.CoreCompileInputs.cache
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskInfrastructureLayer\obj\Debug\net8.0\TaskInfrastructureLayer.dll
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskInfrastructureLayer\obj\Debug\net8.0\refint\TaskInfrastructureLayer.dll
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskInfrastructureLayer\obj\Debug\net8.0\TaskInfrastructureLayer.pdb
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskInfrastructureLayer\obj\Debug\net8.0\ref\TaskInfrastructureLayer.dll
+D:\Manjeet\Interview\Practical\TaskManagementAPI\TaskInfrastructureLayer\obj\Debug\net8.0\TaskInfrastructureLayer.csproj.AssemblyReference.cache
