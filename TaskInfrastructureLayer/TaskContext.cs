@@ -4,9 +4,12 @@ namespace TaskInfrastructureLayer
 {
     public class TaskContext : DbContext
     {
+        public TaskContext()
+        {
+        }
         public TaskContext(DbContextOptions<TaskContext> options) : base(options) { }
 
-        public DbSet<TaskDetail> Tasks { get; set; }
+        public virtual DbSet<TaskDetail> Tasks { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

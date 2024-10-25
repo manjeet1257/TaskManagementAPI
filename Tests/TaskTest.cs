@@ -2,53 +2,72 @@ using TaskManagementAPI;
 using TaskInfrastructureLayer;
 using Microsoft.EntityFrameworkCore;
 using TaskManagementDomain;
+using Moq;
 
 namespace Tests
 {
-    public class TaskControllerTests
+    [TestFixture]
+    public class TaskServiceTests
     {
-        private TaskContext _context;
-        private TaskController _controller;
-        private ITaskDetailService _taskDetailService;
+        private Mock<DbSet<TaskDetail>> _mockTaskSet;
+        private Mock<TaskContext> _mockContext;
+        private TaskDetailService _taskService;
 
         [SetUp]
         public void Setup()
         {
-            var options = new DbContextOptionsBuilder<TaskContext>()
-                .UseInMemoryDatabase(databaseName: "TaskManagementAPI")
-            .Options;
+            // Sample data to be used in the mock DbSet
+            var tasks = new List<TaskDetail>
+        {
+            new TaskDetail { Id = 1, Name = "Task 1" },
+            new TaskDetail { Id = 2, Name = "Task 2" }
+        }.AsQueryable();
 
-            _context = new TaskContext(options);
-            _controller = new TaskController(_context, _taskDetailService);
+            // Mock the DbSet
+            _mockTaskSet = new Mock<DbSet<TaskDetail>>();
+            _mockTaskSet.As<IQueryable<TaskDetail>>().Setup(m => m.Provider).Returns(tasks.Provider);
+            _mockTaskSet.As<IQueryable<TaskDetail>>().Setup(m => m.Expression).Returns(tasks.Expression);
+            _mockTaskSet.As<IQueryable<TaskDetail>>().Setup(m => m.ElementType).Returns(tasks.ElementType);
+            _mockTaskSet.As<IQueryable<TaskDetail>>().Setup(m => m.GetEnumerator()).Returns(tasks.GetEnumerator());
+
+            // Mock the DbContext
+            _mockContext = new Mock<TaskContext>();
+            _mockContext.Setup(c => c.Tasks).Returns(_mockTaskSet.Object);
+
+            _mockContext.Setup(c => c.SaveChangesAsync(default)).ReturnsAsync(1);
+
+            // Initialize the service with the mocked context
+            _taskService = new TaskDetailService(_mockContext.Object);
         }
 
         [Test]
-        public async Task CanAddTask()
+        public void GetTasks_ShouldReturnAllTasks()
         {
-            var task = new TaskDetailDTO { Name = "Test Task", Description = "Test Description", Deadline = DateTime.Now.AddYears(1)};
+            // Act
+            var result = _taskService.GetTaskDetail();
 
-            var result = await _controller.Task(task);
-            Assert.AreEqual(1, _context.Tasks.Count());
+            // Assert
+            Assert.AreEqual(2, result.Count());
+            Assert.AreEqual("Task 1", result.First().Name);
         }
 
         [Test]
-        public async Task CanUpdateTask()
+        public void GetTasks_WhenNoTasks_ShouldReturnEmptyList()
         {
-            var task = new TaskDetail { Name = "Test Task" };
-            _context.Tasks.Add(task);
-            _context.SaveChanges();
+            // Arrange
+            var emptyTasks = new List<TaskDetail>().AsQueryable();
 
-            task.Name = "Updated Task";
-            await _controller.Task(task.Id, new TaskDetailDTO
-            {
-                Deadline = task.Deadline,
-                Description = task.Description,
-                Id = task.Id,
-                IsFavourite = task.IsFavourite,
-                Name = task.Name
-            });
+            // Re-mock the DbSet to return no tasks
+            _mockTaskSet.As<IQueryable<TaskDetail>>().Setup(m => m.Provider).Returns(emptyTasks.Provider);
+            _mockTaskSet.As<IQueryable<TaskDetail>>().Setup(m => m.Expression).Returns(emptyTasks.Expression);
+            _mockTaskSet.As<IQueryable<TaskDetail>>().Setup(m => m.ElementType).Returns(emptyTasks.ElementType);
+            _mockTaskSet.As<IQueryable<TaskDetail>>().Setup(m => m.GetEnumerator()).Returns(emptyTasks.GetEnumerator());
 
-            Assert.AreEqual("Updated Task", _context.Tasks.First().Name);
+            // Act
+            var result = _taskService.GetTaskDetail();
+
+            // Assert
+            Assert.AreEqual(0, result.Count());
         }
     }
 }

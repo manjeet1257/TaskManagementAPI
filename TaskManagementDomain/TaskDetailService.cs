@@ -28,14 +28,9 @@ namespace TaskManagementDomain
             return taskDetailDTO;
         }
 
-        public Task<TaskDetailDTO> DeleteTaskDetailAsync(int id, TaskDetailDTO taskDetailDTO)
+        public List<TaskDetailDTO> GetTaskDetail()
         {
-            throw new NotImplementedException();
-        }
-
-        public async Task<List<TaskDetailDTO>> GetTaskDetailAsync()
-        {
-            var taskDetails = await _taskContext.Tasks.ToListAsync();
+            var taskDetails = _taskContext.Tasks.ToList();
 
             return taskDetails.Select(t => new TaskDetailDTO
             {
@@ -45,11 +40,6 @@ namespace TaskManagementDomain
                 IsFavourite = t.IsFavourite,
                 Name = t.Name
             }).ToList();
-        }
-
-        public Task<TaskDetailDTO> GetTaskDetailAsync(int id)
-        {
-            throw new NotImplementedException();
         }
 
         public async Task<TaskDetailDTO> UpdateTaskDetailAsync(int id, TaskDetailDTO taskDetailDTO)

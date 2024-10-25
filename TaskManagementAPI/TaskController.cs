@@ -20,9 +20,9 @@ namespace TaskManagementAPI
 
         // GET: api/Task
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TaskDetailDTO>>> Tasks()
+        public ActionResult<IEnumerable<TaskDetailDTO>> Tasks()
         {
-            return await _taskDetailService.GetTaskDetailAsync();
+            return _taskDetailService.GetTaskDetail();
         }
 
         [HttpPost]

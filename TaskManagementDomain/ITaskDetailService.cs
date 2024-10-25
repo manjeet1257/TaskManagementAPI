@@ -9,7 +9,7 @@ namespace TaskManagementDomain
 {
     public interface ITaskDetailService
     {
-        Task<List<TaskDetailDTO>> GetTaskDetailAsync();
+        List<TaskDetailDTO> GetTaskDetail();
         Task<TaskDetailDTO> AddTaskDetailAsync(TaskDetailDTO taskDetailDTO);
         Task<TaskDetailDTO> UpdateTaskDetailAsync(int id, TaskDetailDTO taskDetailDTO);
     }

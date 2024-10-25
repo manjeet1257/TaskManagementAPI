@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6608595F-1149-40B7-AD50-466D6BEC3C25}|Tests\\Tests.csproj|d:\\manjeet\\interview\\practical\\taskmanagementapi\\tests\\tasktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6608595F-1149-40B7-AD50-466D6BEC3C25}|Tests\\Tests.csproj|solutionrelative:tests\\tasktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E09C090E-CA33-4DC1-875F-80A7F2554DB6}|TaskManagementDomain\\TaskManagementDomain.csproj|d:\\manjeet\\interview\\practical\\taskmanagementapi\\taskmanagementdomain\\taskdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E09C090E-CA33-4DC1-875F-80A7F2554DB6}|TaskManagementDomain\\TaskManagementDomain.csproj|solutionrelative:taskmanagementdomain\\taskdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C3BAC06-1F99-4653-BBF5-54E1234F0AD1}|TaskManagementAPI\\TaskManagementAPI.csproj|d:\\manjeet\\interview\\practical\\taskmanagementapi\\taskmanagementapi\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C3BAC06-1F99-4653-BBF5-54E1234F0AD1}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E09C090E-CA33-4DC1-875F-80A7F2554DB6}|TaskManagementDomain\\TaskManagementDomain.csproj|d:\\manjeet\\interview\\practical\\taskmanagementapi\\taskmanagementdomain\\itaskdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E09C090E-CA33-4DC1-875F-80A7F2554DB6}|TaskManagementDomain\\TaskManagementDomain.csproj|solutionrelative:taskmanagementdomain\\itaskdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6608595F-1149-40B7-AD50-466D6BEC3C25}|Tests\\Tests.csproj|d:\\manjeet\\interview\\practical\\taskmanagementapi\\tests\\tasktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6608595F-1149-40B7-AD50-466D6BEC3C25}|Tests\\Tests.csproj|solutionrelative:tests\\tasktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E09C090E-CA33-4DC1-875F-80A7F2554DB6}|TaskManagementDomain\\TaskManagementDomain.csproj|d:\\manjeet\\interview\\practical\\taskmanagementapi\\taskmanagementdomain\\taskdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E09C090E-CA33-4DC1-875F-80A7F2554DB6}|TaskManagementDomain\\TaskManagementDomain.csproj|solutionrelative:taskmanagementdomain\\taskdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E09C090E-CA33-4DC1-875F-80A7F2554DB6}|TaskManagementDomain\\TaskManagementDomain.csproj|d:\\manjeet\\interview\\practical\\taskmanagementapi\\taskmanagementdomain\\itaskdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E09C090E-CA33-4DC1-875F-80A7F2554DB6}|TaskManagementDomain\\TaskManagementDomain.csproj|solutionrelative:taskmanagementdomain\\itaskdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DBB1B5C-3E08-404B-882F-47082140231A}|TaskInfrastructureLayer\\TaskInfrastructureLayer.csproj|d:\\manjeet\\interview\\practical\\taskmanagementapi\\taskinfrastructurelayer\\taskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,12 +31,12 @@
       "RelativeMoniker": "D:0:0:{E09C090E-CA33-4DC1-875F-80A7F2554DB6}|TaskManagementDomain\\TaskManagementDomain.csproj|solutionrelative:taskmanagementdomain\\taskdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C3BAC06-1F99-4653-BBF5-54E1234F0AD1}|TaskManagementAPI\\TaskManagementAPI.csproj|d:\\manjeet\\interview\\practical\\taskmanagementapi\\taskmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C3BAC06-1F99-4653-BBF5-54E1234F0AD1}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C3BAC06-1F99-4653-BBF5-54E1234F0AD1}|TaskManagementAPI\\TaskManagementAPI.csproj|d:\\manjeet\\interview\\practical\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{4C3BAC06-1F99-4653-BBF5-54E1234F0AD1}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\taskmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3BAC06-1F99-4653-BBF5-54E1234F0AD1}|TaskManagementAPI\\TaskManagementAPI.csproj|d:\\manjeet\\interview\\practical\\taskmanagementapi\\taskmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3BAC06-1F99-4653-BBF5-54E1234F0AD1}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,17 +46,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "TaskContext.cs",
+              "DocumentMoniker": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\TaskInfrastructureLayer\\TaskContext.cs",
+              "RelativeDocumentMoniker": "TaskInfrastructureLayer\\TaskContext.cs",
+              "ToolTip": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\TaskInfrastructureLayer\\TaskContext.cs",
+              "RelativeToolTip": "TaskInfrastructureLayer\\TaskContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T08:21:22.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskTest.cs",
+              "DocumentMoniker": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\Tests\\TaskTest.cs",
+              "RelativeDocumentMoniker": "Tests\\TaskTest.cs",
+              "ToolTip": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\Tests\\TaskTest.cs",
+              "RelativeToolTip": "Tests\\TaskTest.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAADYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T08:18:20.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TaskDetailService.cs",
               "DocumentMoniker": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\TaskManagementDomain\\TaskDetailService.cs",
               "RelativeDocumentMoniker": "TaskManagementDomain\\TaskDetailService.cs",
               "ToolTip": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\TaskManagementDomain\\TaskDetailService.cs",
               "RelativeToolTip": "TaskManagementDomain\\TaskDetailService.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAAADgAAAAqAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswBoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T18:27:59.433Z",
               "EditorCaption": ""
@@ -69,22 +95,9 @@
               "RelativeDocumentMoniker": "TaskManagementAPI\\TaskController.cs",
               "ToolTip": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\TaskManagementAPI\\TaskController.cs",
               "RelativeToolTip": "TaskManagementAPI\\TaskController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAB8AAAAlAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T18:09:44.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskContext.cs",
-              "DocumentMoniker": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\TaskInfrastructureLayer\\TaskContext.cs",
-              "RelativeDocumentMoniker": "TaskInfrastructureLayer\\TaskContext.cs",
-              "ToolTip": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\TaskInfrastructureLayer\\TaskContext.cs",
-              "RelativeToolTip": "TaskInfrastructureLayer\\TaskContext.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAABAAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T18:19:06.134Z",
               "EditorCaption": ""
             },
             {
@@ -95,20 +108,20 @@
               "RelativeDocumentMoniker": "TaskInfrastructureLayer\\TaskDetail.cs",
               "ToolTip": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\TaskInfrastructureLayer\\TaskDetail.cs",
               "RelativeToolTip": "TaskInfrastructureLayer\\TaskDetail.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAlwAoAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T18:16:52.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ITaskDetailService.cs",
               "DocumentMoniker": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\TaskManagementDomain\\ITaskDetailService.cs",
               "RelativeDocumentMoniker": "TaskManagementDomain\\ITaskDetailService.cs",
               "ToolTip": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\TaskManagementDomain\\ITaskDetailService.cs",
               "RelativeToolTip": "TaskManagementDomain\\ITaskDetailService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAtwA4AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T18:26:43.64Z",
               "EditorCaption": ""
@@ -121,27 +134,14 @@
               "RelativeDocumentMoniker": "TaskManagementDomain\\TaskDetailDTO.cs",
               "ToolTip": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\TaskManagementDomain\\TaskDetailDTO.cs",
               "RelativeToolTip": "TaskManagementDomain\\TaskDetailDTO.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAlwAkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T18:11:05.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskTest.cs",
-              "DocumentMoniker": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\Tests\\TaskTest.cs",
-              "RelativeDocumentMoniker": "Tests\\TaskTest.cs",
-              "ToolTip": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\Tests\\TaskTest.cs",
-              "RelativeToolTip": "Tests\\TaskTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T19:05:58.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\TaskManagementAPI\\Program.cs",
               "RelativeDocumentMoniker": "TaskManagementAPI\\Program.cs",
@@ -149,12 +149,11 @@
               "RelativeToolTip": "TaskManagementAPI\\Program.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T18:02:35.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T18:02:35.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "TaskManagementAPI.http",
               "DocumentMoniker": "D:\\Manjeet\\Interview\\Practical\\TaskManagementAPI\\TaskManagementAPI\\TaskManagementAPI.http",
               "RelativeDocumentMoniker": "TaskManagementAPI\\TaskManagementAPI.http",
